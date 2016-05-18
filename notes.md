@@ -32,7 +32,6 @@ DONE
 * Web
   * MathML => failed
   * HTML/CSS, SVG, Canvas
-  * computing (MathJS)
 
 ## Wie liest man Mathematik vor?
 
@@ -53,6 +52,8 @@ DONE
 
 ### Lösungsansätze
 
+* Standards: BITV / WCAG
+  * NVDA, JAWS, VoiceOver, ORCA all fail
 * "Visuell" vorlesen
   * MathSpeak
 * Problem: Qualität der Quelle
@@ -61,45 +62,25 @@ DONE
 * Semantische Analyse
 
 
-## Lösungen
+## Neue Ansätze
 
-* BITV / WCAG
-* NVDA, JAWS, VoiceOver, ORCA
-* MathJax
-
-## Ungeloeste Probleme
-
-* Localizaiton
-* Testen
-* Resourcen
+* Bei Erstellung ansetzen
+  * Pearson
+* Das beste draus machen
+  * MathJax
+    * l10n/i18n
 
 
-https://de.wikipedia.org/wiki/Heisenbergsche_Unsch%C3%A4rferelation
-https://de.wikibooks.org/wiki/Vektoranalysis:_Teil_I
-
-
-## Take home messages
+## Recap
 
 * Mathematik ist schwer, aber nicht unloesbar
-* PDF ist keien Loesung
-* "Unsere Doezenten wollen nicht web"
- *  Nicht nur web. Mobil, apps etc
+* PDF ist keine Lösung, das Web ist
+* "Unsere Doezenten wollen nicht" => Nicht nur web. Mobil, apps etc
 * Don't throw anything away (LaTeX etc)
- * loest viele Probleme
+ * löst viele Probleme
    * speech
    * copy&paste
    * future options
-* What about diagrams, ad-hoc drawings in class, lecture notes
+* Think beyond.
+  * What about diagrams, ad-hoc drawings in class, lecture notes
   * show of hands: Word, LaTeX, Something different?
-
-
-* Accessibility means
- * Not just blind!
-   * dyslexia => sync highlighting
-   * motor disabilities
-   * high (or low!) contrast
- * voicing
- * re-use
-   * copy&paste
- * search
- * machine-readability
