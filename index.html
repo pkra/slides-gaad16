@@ -50,8 +50,8 @@
 		<div>
 			<h2>Meinerseits</h2>
 			<ul>
-				<li>"trockener Mathematiker" (<a href="//www.krautzource.com">krautzource UG</a>)</li>
-				<li><a href="https://www.mathjax.org">MathJax</a> (<a href="//ams.org">AMS</a>, <a href="//siam.org">SIAM</a>), <a href="http://www.w3.org/dpub/IG/wiki/Main_Page">W3C DPUB IG</a>, <a href="http://www.w3.org/community/mathonwebpages">W3C "Getting Math onto Web Pages" CG</a></li>
+				<li><span lang="en">"recovering mathematician"</span>, <a href="//www.krautzource.com">krautzource UG</a></li>
+				<li><a href="https://www.mathjax.org">MathJax</a> (<a href="//ams.org">AMS</a>, <a href="//siam.org">SIAM</a>)</li><li><a href="http://www.w3.org/dpub/IG/wiki/Main_Page">W3C DPUB IG</a>, <a href="http://www.w3.org/community/mathonwebpages">W3C "<span lang="en">Getting Math onto Web Pages</span>" CG</a></li>
 				<li><a href="https://boolesrings.org">Booles' Rings</a>, <a href="http://mathblogging.org">Mathblogging.org</a></li>
 			</ul>
 		</div>
@@ -65,7 +65,6 @@
 				<li>Schreiben</li>
 				<li>Visuelle Darstellung</li>
 				<li>Barrierfreie(re) Darstellung</li>
-				<li>Barrierefreiheit darüber hinaus</li>
 			</ul>
 		</div>
 	</section>
@@ -79,11 +78,15 @@
 						20 Jahre Web ≈ 100 Jahre Buchdruck
 					</p>
 				</blockquote>
-				<figcaption>Unbekannter Blogger.<sup><a href="http://xkcd.com/285/">[Citation Needed]</a></figcaption>
+				<figcaption>Unbekannter Blogger.<sup><a href="http://xkcd.com/285/">[<span lang="en">Citation Needed</span>]</a></figcaption>
 				<img src="pictures/wiki-print.png" style="width:90%" alt="a 16th century printing press"></sup>
 					<br />
 			</figure>
 		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Fokus auf Formeln (statt "Mathematik")</h2>
 	</section>
 
 	<section class="slide">
@@ -93,9 +96,9 @@
 			<blockquote cite="https://de.wikipedia.org/wiki/Heisenbergsche_Unsch%C3%A4rferelation">
 				<p>Bei der populärsten Variante von Unschärferelationen wird die Unschärfe des Ortes&nbsp;<i>x</i> und des Impulses&nbsp;<i>p</i> jeweils durch deren statistische <a href="https://de.wikipedia.org/wiki/Standardabweichung" title="Standardabweichung">Streuung</a>					σ<sub>x</sub> und σ<sub>p</sub> definiert. Die Unschärferelation besagt in diesem Fall</p>
 				<dl>
-					<dd><img class="mwe-math-fallback-image-inline tex" alt="\sigma_x \cdot \sigma_p \ge \frac{\hbar}{2} \, , \qquad\qquad (1)" src="pictures/wiki1.png"></dd>
+					<dd><img  alt="\sigma_x \cdot \sigma_p \ge \frac{\hbar}{2} \, , \qquad\qquad (1)" src="pictures/wiki1.png"></dd>
 				</dl>
-				<p>wobei <img class="mwe-math-fallback-image-inline tex" alt="\hbar = h/2\pi" src="pictures/wiki2.png"> und <img class="mwe-math-fallback-image-inline tex" alt="\pi" src="pictures/wiki3.png">					die <a href="https://de.wikipedia.org/wiki/Kreiszahl" title="Kreiszahl">Kreiszahl</a> ist.</p>
+				<p>wobei <img  alt="\hbar = h/2\pi" src="pictures/wiki2.png"> und <img  alt="\pi" src="pictures/wiki3.png">					die <a href="https://de.wikipedia.org/wiki/Kreiszahl" title="Kreiszahl">Kreiszahl</a> ist.</p>
 				<p>Im Rahmen des Formalismus der Quantenmechanik ergeben sich die [...]
 			</blockquote>
 			</p>
@@ -197,7 +200,7 @@
 		<h2>Wie schreibt man Formeln digital?</h2>
 		<p class="center" lang="en">
 			<img style="width:50%;" src="pictures/MS_equation_editor.png" alt="Screenshot: Microsoft Word 2007 mit geöffnetem Ribbon des Formeleditor sowie einer aktiven Formel im Dokument" />
-			<br>WYSIWYG <br> (Microsoft Word, WIRIS, MathType)
+			<br>WYSIWYG <br> (z.B. <a href="https://microsoft.com">Microsoft Word</a>, <a href="https://wiris.com">WIRIS</a>, <a href="https://dessci.com">MathType</a>)
 		</p>
 
 	</section>
@@ -276,7 +279,7 @@
 								</svg>:
 					<code>\sigma_x \cdot \sigma_p \ge \frac{\hbar}{2}, \qquad (1)</code>
 					<br>
-					ASCII: <code>sigma_x * sigma_p >= (hbar)/(2)        (1)</code>
+					ASCII: <code>sigma_x * sigma_p >= hbar/2        (1)</code>
 					<br>
 					CAS: <code>std(x) * std(p) >= ℏ/2</code>
 					</p>
@@ -288,8 +291,8 @@
 	<section class="slide">
 		<h2>Wie schreibt man Formeln digital?</h2>
 		<p class="center" lang="en">
-			<img style="width:20%;" src="pictures/myscript.png" alt="Screenshot: MyScript Calculator App verwandelte Handschrift und berechnet Ergebnisse" />
-			<br>Handschriftlich (Windows, MyScript, InftyReader)
+			<img style="width:20%;" src="pictures/myscript.png" alt="Screenshot: MyScript Calculator App wandelt einfache handschriftliche Eingaben per Touchscreen in Textsatz um und berechnet das Ergebnis" />
+			<br>Handschrift (z.B. <a href="https://microsoft.com">Windows</a>, <a href="https://myscript.com">MyScript</a>, <a href="https://inftyreader.com">InftyReader</a>)
 		</p>
 	</section>
 
@@ -300,8 +303,8 @@
 	<section class="slide ">
 			<h2>Wie stellt man Formeln visuell (prä-Web) dar?</h2>
 			<p class="center" lang="en">
-				<img alt="Adobe PDF logo" width="25%" src="pictures/Word_logo.svg" />
-				<img alt="Adobe PDF logo" width="25%" src="pictures/Adobe_PDF.svg" />
+				<img alt="Microsoft Word Dokument Logo" width="25%" src="pictures/Word_logo.svg" />
+				<img alt="Adobe PDF Logo" width="25%" src="pictures/Adobe_PDF.svg" />
 			</p>
 	</section>
 
@@ -310,7 +313,7 @@
 			<h2>Wie stellt man Formeln visuell dar?</h2>
 			<p class="center">
 				 Eigentlich: MathML	<br>
-				<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="sigma Subscript x Baseline dot sigma Subscript p Baseline greater-than-or-equal-to StartFraction italic h over two pi Over 2 EndFraction comma left-parenthesis 1 right-parenthesis">
+				<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="sigma Subscript x Baseline dot sigma Subscript p Baseline greater-than-or-equal-to StartFraction italic h over two pi Over 2 EndFraction comma left-parenthesis 1 right-parenthesis" aria-label="sigma Subscript x Baseline dot sigma Subscript p Baseline greater-than-or-equal-to StartFraction italic h over two pi Over 2 EndFraction comma left-parenthesis 1 right-parenthesis">
 					<msub>
 						<mi>&#x03C3;
 							<!-- σ -->
@@ -343,17 +346,19 @@
 					<mn>1</mn>
 					<mo stretchy="false">)</mo>
 				</math>
-				Lösung oder Problem?
-				<p>
-				 (Wird meist per JavaScript umgewandelt werden, z.B. mit <a href="https://www.mathjax.org">MathJax</a>.)
-				</p>
 			</p>
+				<p>
+				 Oben nur Buchstabensalat? MathML wird meist per JavaScript umgewandelt, z.B. mit <a href="https://www.mathjax.org">MathJax</a>.
+				</p>
+			<b class="center">
+				Lösung oder Problem?
+			</b>
 	</section>
 
 	<section class="slide ">
 			<h2>Wie stellt man Formeln visuell dar?</h2>
 			<p class="center" lang="en">
-				<img class="mwe-math-fallback-image-inline tex" alt="\sigma_x \cdot \sigma_p \ge \frac{\hbar}{2} \, , \qquad\qquad (1)" width="55%" src="pictures/wiki1.png" />
+				<img alt="\sigma_x \cdot \sigma_p \ge \frac{\hbar}{2} \, , \qquad\qquad (1)" width="55%" src="pictures/wiki1.png" />
 				<br>Rastergrafik
 			</p>
 	</section>
@@ -412,52 +417,55 @@
 			</p>
 	</section>
 
+	<section class="slide">
+  	<h2>Wie stellt man Formeln barrierefrei dar?</h2>
+	</section>
 
 	<section class="slide">
-  <h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
-	<b class="center">Für wen?</b>
+  <h2>Für wen stellt man Formeln barrierefrei dar?</h2>
 	<ul>
 		<li>Alle!</li>
-		<li>Sehbehinderungen</li>
-		<li>Körperbehinderung</li>
-		<li>Lern- und geistige Behinderungen (Legasthenie, ADHS, Asperger)</li>
+		<li>Visuelle Behinderungen</li>
+		<li>Motorische Behinderungen</li>
+		<li>Geistige Behinderungen</li>
+		<li>Lernschwächen</li>
+		<li>Temporäre Behinderungen</li>
 	</ul>
 	</section>
 
 	<section class="slide">
-  <h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
-  <b class="center">Für was?</b>
+  <h2>Für was stellt man Formeln barrierefrei dar?</h2>
 	<ul>
 		<li>Visuelle Darstellung</li>
 		<li>Auditive Darstellung</li>
 		<li>Berührungsempfindliche Darstellung</li>
-		<li>Weiterverwendung (copy&amp;paste, Konvertierung)</li>
+		<li>Navigierbare Darstellung</li>
+		<li>Weiterverwendung (<span lang="en">copy&amp;paste</span>, Konvertierung)</li>
 		<li>Suche</li>
 		<li>Langzeitarchivierung</li>
 	</ul>
 	</section>
 
 	<section class="slide">
-		<h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
+		<h2>Wie stellt man Formeln barrierefrei dar?</h2>
 		<b class="center">Was sagen die Standards?</b>
-		<p><a href="https://www.w3.org/Translations/WCAG20-de/">WCAG</a>/<a href="https://www.w3.org/TR/wai-aria-practices-1.1/#math">WAI ARIA Authoring Practices</a>, <a href="http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/vertiefend/bitvtest_10/grenzen/prio_1.html#3-1">BITV</a>:
-		MathML.</p>
-		<b class="center">Wie ist der Stand der Technik bei MathML?</b>
+		<p><a href="https://www.w3.org/Translations/WCAG20-de/">WCAG</a>/<a href="https://www.w3.org/TR/wai-aria-practices-1.1/#math">WAI ARIA Authoring Practices</a>, <a href="http://www.bitvtest.de/bitvtest/das_testverfahren_im_detail/vertiefend/bitvtest_10/grenzen/prio_1.html#3-1">BITV</a>: im Grunde nur <b>MathML</b>.</p>
+		<b class="center">Was machen Hilfsmittel mit MathML?</b>
 		<p>
-			JAWS, NVDA, VoiceOver, ChromeVox mit problematischer Unterstützung.
+			Sehr uneinheitliche Unterstützung, kaum aktive Entwicklung.<br>
+			Nur <a href="https://freedomscientific.com">JAWS</a>, <a href="https://nvaccess.com">NVDA</a>, <a href="https://apple.com">VoiceOver</a>, <a href="https://google.com">ChromeVox</a>, <a href="https://texthelp.com">TextHelp</a>.
 		</p>
 		<b class="center">MathML ist mehr Problem als Lösung!</b>
 	</section>
 
 	<section class="slide">
-  <h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
-	<b class="center">Herausforderungen</b>
+  	<h2>Warum sind barrierefreie Formeln schwierig?</h2>
 	</section>
 
 	<section class="slide ">
-			<h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
+			<h2>Warum sind barrierefreie Formeln schwierig?</h2>
 			<figure class="center">
-				<b>Herausforderung 1<br> Formeln komprimieren Information (extrem).</b>
+				Formeln komprimieren Information (extrem).
 			<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="25.49ex" height="5.343ex" style="vertical-align: -1.838ex;" viewBox="0 -1508.9 10974.7 2300.3" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title MathJax-SVG-1-Desc">
 							<title id="MathJax-SVG-1-Title">Equation</title>
 							<desc id="MathJax-SVG-1-Desc">sigma Subscript x Baseline dot sigma Subscript p Baseline greater-than-or-equal-to StartFraction italic h over two pi Over 2 EndFraction comma left-parenthesis 1 right-parenthesis</desc>
@@ -502,21 +510,35 @@
 	</section>
 
 	<section class="slide ">
-		<h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
+		<h2>Warum sind barrierefreie Formeln schwierig?</h2>
 			<figure class="center">
-				<b>Herausforderung 2 <br>Formeln sind oft visuell.</b><br>
+				Formeln sind oft visuell.<br>
 				<img src="pictures/First-isomorphism-theorem.svg"  alt="Kommutatives Diagramm zum Ersten Isomorphiesatz. Das Diagramm beschreibt die Objekte und Morphismen, die aus dem einem Morpismus zwischen zwei Gruppen abgeleitet werden können." />
 				</figure>
 	</section>
 
 	<section class="slide ">
-			<h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
+		<h2>Warum sind barrierefreie Formeln schwierig?</h2>
 			<p class="center">
-				<b>Herausforderung 3 <br>Formeln sind kontextabhängig.</b><br>
-				"Man betrachte den Kreis um (a,b) mit Radius r"
-				<br>
-				"Für a,b ∈ H, H Hilbertraum, gilt  (a,b) = (b,a)."
-				</p>
+				Formeln sind kontextabhängig.
+			</p>
+			"Man betrachte den Kreis um (a,b) mit Radius r."
+			<br>
+			"Für a,b ∈ H, H Hilbertraum, gilt  (a,b) = (b,a)."
+
+	</section>
+
+	<section class="slide ">
+		<h2>Warum sind barrierefreie Formeln schwierig?</h2>
+			<p class="center">
+				Formeln werden schlecht geschrieben.
+			</p>
+			<ul>
+				<li>Visuell</li>
+				<li>Für Print</li>
+				<li>nicht semantisch</li>
+				<li>kaum Werkzeuge</li>
+			</ul>
 	</section>
 
 	<section class="slide ">
@@ -524,50 +546,80 @@
 			<b class="center">Lösungsansätze</b>
 			 <b>Zur auditiven Darstellung</b>
 			<ul>
-				<li>"Visuell" vorlesen (<a href="http://www.gh-mathspeak.com/">MathSpeak</a> etc)</li>
-				<li>Semantische Analyse zur Spracherzeugung (<a href="https://github.com/zorkow/speech-rule-engine">SpeechRuleEngine</a>)</li>
+				<li>"Visuell" vorlesen (z.B. <a href="http://www.gh-mathspeak.com/">MathSpeak</a>)</li>
+				<li>Rohformate (z.B. <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="5.947ex" height="2.676ex" style="vertical-align: -0.838ex;" viewBox="0 -791.3 2560.7 1152.1" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+										<title id=" MathJax-SVG-1-Title ">Lah-Tech</title>
+										<defs aria-hidden="true ">
+										<path stroke-width="1 " id="E1-MJMAIN-4C " d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q48 680 182 680Q324 680 348 683H360V637H333Q273 637 258 635T233 622L232 342V129Q232 57 237 52Q243 47 313 47Q384 47 410 53Q470 70 498 110T536 221Q536
+								226 537 238T540 261T542 272T562 273H582V268Q580 265 568 137T554 5V0H25V46H58Q100 47 109 49T128 61V622Z "></path>
+										<path stroke-width="1 " id="E1-MJMAIN-41 " d="M255 0Q240 3 140 3Q48 3 39 0H32V46H47Q119 49 139 88Q140 91 192 245T295 553T348 708Q351 716 366 716H376Q396 715 400 709Q402 707 508 390L617 67Q624 54 636 51T687 46H717V0H708Q699 3 581 3Q458 3 437
+								0H427V46H440Q510 46 510 64Q510 66 486 138L462 209H229L209 150Q189 91 189 85Q189 72 209 59T259 46H264V0H255ZM447 255L345 557L244 256Q244 255 345 255H447Z "></path>
+										<path stroke-width="1 " id="E1-MJMAIN-54 " d="M36 443Q37 448 46 558T55 671V677H666V671Q667 666 676 556T685 443V437H645V443Q645 445 642 478T631 544T610 593Q593 614 555 625Q534 630 478 630H451H443Q417 630 414 618Q413 616 413 339V63Q420 53 439
+								50T528 46H558V0H545L361 3Q186 1 177 0H164V46H194Q264 46 283 49T309 63V339V550Q309 620 304 625T271 630H244H224Q154 630 119 601Q101 585 93 554T81 486T76 443V437H36V443Z "></path>
+										<path stroke-width="1 " id="E1-MJMAIN-45 " d="M128 619Q121 626 117 628T101 631T58 634H25V680H597V676Q599 670 611 560T625 444V440H585V444Q584 447 582 465Q578 500 570 526T553 571T528 601T498 619T457 629T411 633T353 634Q266 634 251 633T233 622Q233
+								622 233 621Q232 619 232 497V376H286Q359 378 377 385Q413 401 416 469Q416 471 416 473V493H456V213H416V233Q415 268 408 288T383 317T349 328T297 330Q290 330 286 330H232V196V114Q232 57 237 52Q243 47 289 47H340H391Q428 47 452 50T505 62T552 92T584 146Q594
+								172 599 200T607 247T612 270V273H652V270Q651 267 632 137T610 3V0H25V46H58Q100 47 109 49T128 61V619Z "></path>
+										<path stroke-width="1 " id="E1-MJMAIN-58 " d="M270 0Q252 3 141 3Q46 3 31 0H23V46H40Q129 50 161 88Q165 94 244 216T324 339Q324 341 235 480T143 622Q133 631 119 634T57 637H37V683H46Q64 680 172 680Q297 680 318 683H329V637H324Q307 637 286 632T263
+								621Q263 618 322 525T384 431Q385 431 437 511T489 593Q490 595 490 599Q490 611 477 622T436 637H428V683H437Q455 680 566 680Q661 680 676 683H684V637H667Q585 634 551 599Q548 596 478 491Q412 388 412 387Q412 385 514 225T620 62Q628 53 642 50T695 46H726V0H717Q699
+								3 591 3Q466 3 445 0H434V46H440Q454 46 476 51T499 64Q499 67 463 124T390 238L353 295L350 292Q348 290 343 283T331 265T312 236T286 195Q219 88 218 84Q218 70 234 59T272 46H280V0H270Z "></path>
+										</defs>
+										<g stroke="currentColor " fill="currentColor " stroke-width="0 " transform="matrix(1 0 0 -1 0 0) " aria-hidden="true ">
+										 <use xlink:href="#E1-MJMAIN-4C " x="0 " y="0 "></use>
+										<g transform="translate(300,0) ">
+										 <use transform="scale(0.707) " xlink:href="#E1-MJMAIN-41 " x="0 " y="296 "></use>
+										</g>
+										 <use xlink:href="#E1-MJMAIN-54 " x="661 " y="0 "></use>
+										<g transform="translate(1243,0) ">
+										 <use xlink:href="#E1-MJMAIN-45 " x="0 " y="-216 "></use>
+										</g>
+										 <use xlink:href="#E1-MJMAIN-58 " x="1810 " y="0 "></use>
+										</g>
+									</svg>, Ascii)</li>
+				<li>Semantische Analyse zur Spracherzeugung (z.B. <a href="https://github.com/zorkow/speech-rule-engine">SpeechRuleEngine</a>)</li>
 			</ul>
 			<b >Zur berührungsempfindliche Darstellung</b>
 			<ul>
-				<li>Braille (<a href="https://en.wikipedia.org/wiki/Nemeth_Braille">Nemeth</a>, <a href="http://www.bskdl.org/mathematik.html">Mathematikschrift</a>)</li>
+				<li>Braille (z.B. <a href="https://en.wikipedia.org/wiki/Nemeth_Braille">Nemeth</a>, <a href="http://www.bskdl.org/mathematik.html">Mathematikschrift</a>)</li>
 			</ul>
 	</section>
 
 	<section class="slide ">
-		<h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
-			<b class="center">Des Pudels Kern</b>
+		<h2>Des Pudels Kern</h2>
 			<p class="center">
 				Wie erreicht man alles gleichzeitig?
 			</p>
-			<p>
+			<b>
 				Lösung: offen.
-			</p>
+			</b>
 	</section>
 
 
 	<section class="slide ">
-		<h2>Wie stellt man Formeln barrierefrei(er) dar?</h2>
-		<b class="center">Neue Ansätze</b>
+		<h2>Neue Ansätze</h2>
 		<ul>
-			<li>"Born-accessible" (<a href="http://accessibility.pearson.com/mathex-app/">Pearson Accessible Equation Editor</a>)</li>
-			<li>"As accessible as possible" (<a href="http://s.codepen.io/pkra/debug/yOWrWQ">MathJax Accessibility Extension</a>)</li>
+			<li><span lang="en">"Born-accessible" (z.B. <a href="http://accessibility.pearson.com/mathex-app/">Pearson Accessible Equation Editor</a>)</span></li>
+			<li><span lang="en">"As accessible as possible" (z.B. <a href="http://s.codepen.io/pkra/debug/yOWrWQ">MathJax Accessibility Extension</a>)</span></li>
 		</ul>
 	</section>
 
 	<section class="slide ">
 			<h2>Wo stehen wir?</h2>
+			<div class="double">
 			<ul>
 				<li>Visuelle Darstellung</li>
 				<li>Auditive Darstellung</li>
 				<li>Berührungsempfindliche Darstellung</li>
-				<li>Das alles synchron!</li>
-				<li>Weiterverwendung (copy&amp;paste, Konvertierung)</li>
+				<li>Navigierbare Darstellung</li>
+				<li>Weiterverwendung</li>
 				<li>Suche</li>
 				<li>Langzeitarchivierung</li>
+				<li>MINT</li>
 			</ul>
 			<b>
 				Es bleibt viel zu tun! Aber...
 			</b>
+
+		</div>
 	</section>
 
 <section class="slide">
@@ -576,7 +628,7 @@
 </section>
 	<section class="slide ">
 		<div class="double">
-			<img src="http://38.media.tumblr.com/bcc4021b13f9160ca8f1a93a9887f0f8/tumblr_inline_nvey1g6qVp1r79k32_500.gif " alt="obligatorisches Katzen-GIF" />
+			<img src="http://38.media.tumblr.com/bcc4021b13f9160ca8f1a93a9887f0f8/tumblr_inline_nvey1g6qVp1r79k32_500.gif" alt="obligatorisches Katzen-GIF" />
 			<h2>Vielen Dank.</h2>
 		</div>
 	</section>
